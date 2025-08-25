@@ -1,11 +1,11 @@
-
-//import { useState } from "react";
-//import Spinner from "../components/Spinner";
+'use client';
+'use client';
+import { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "bootstrap/dist/js/bootstrap.bundle.min.js";
 export default function Home() {
-  //const [language, setLanguage] = useState(0);
-  //const [isLoading, setIsLoading] = useState(true);
+  useEffect(() => {
+    import('bootstrap/dist/js/bootstrap.bundle.min.js');
+  }, []);
   return (
     <div>
       <h1>Hello</h1>
