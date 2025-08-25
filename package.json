@@ -9,7 +9,6 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@clerk/nextjs": "^6.31.4",
     "bootstrap": "^5.3.7",
     "bootstrap-icons": "^1.13.1",
     "next": "15.5.0",
